@@ -118,6 +118,7 @@ public class Grid {
     }
 
 	// Returns entire grid as 2D array of cell objects
+	//new comment added
     public Cell[][] getContents() {
         Cell[][] contentCopy = new Cell[getHeight()][getWidth()];
         for (int row = 0; row < getHeight(); row++) {
